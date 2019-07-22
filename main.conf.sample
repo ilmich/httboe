@@ -1,0 +1,8 @@
+[server]
+port = 8080
+	[[server.location]]
+		path = "/"
+		static = "./public"
+	[[server.location]]
+		path = "/webdav/"
+		webdav = "./webdav"
